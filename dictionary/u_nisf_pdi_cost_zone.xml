@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="NISF PDI Cost Zone Load" max_length="40" name="u_nisf_pdi_cost_zone" sizeclass="5576" type="collection">
+        <element attributes="import_attribute_name=CostZone,edge_encryption_enabled=true" label="CostZone" max_length="40" name="u_costzone" type="string"/>
+        <element attributes="import_attribute_name=CostZone_ID,edge_encryption_enabled=true" label="CostZone_ID" max_length="40" name="u_costzone_id" type="string"/>
+        <element attributes="import_attribute_name=CostZone_Key" label="CostZone_Key" max_length="15" name="u_costzone_key" type="decimal"/>
+        <element attributes="import_attribute_name=Vendor_ID,edge_encryption_enabled=true" label="Vendor_ID" max_length="40" name="u_vendor_id" type="string"/>
+        <element attributes="import_attribute_name=Vendor_Key" label="Vendor_Key" max_length="15" name="u_vendor_key" type="decimal"/>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="NISF PDI Store Hierarchy" max_length="40" name="u_nisf_store_hierarchy" type="collection">
+        <element attributes="import_attribute_name=Area,edge_encryption_enabled=true" label="Area" max_length="40" name="u_area" type="string"/>
+        <element attributes="import_attribute_name=Area_ID" label="Area_ID" max_length="15" name="u_area_id" type="decimal"/>
+        <element attributes="import_attribute_name=Division,edge_encryption_enabled=true" label="Division" max_length="40" name="u_division" type="string"/>
+        <element attributes="import_attribute_name=Division_ID" label="Division_ID" max_length="15" name="u_division_id" type="decimal"/>
+        <element attributes="import_attribute_name=Effective_Date" label="Effective_Date" max_length="40" name="u_effective_date" type="datetime"/>
+        <element attributes="import_attribute_name=Region,edge_encryption_enabled=true" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="import_attribute_name=Region_ID" label="Region_ID" max_length="15" name="u_region_id" type="decimal"/>
+        <element attributes="import_attribute_name=Site_Address1,edge_encryption_enabled=true" label="Site_Address1" max_length="40" name="u_site_address1" type="string"/>
+        <element attributes="import_attribute_name=Site_Address2,edge_encryption_enabled=true" label="Site_Address2" max_length="40" name="u_site_address2" type="string"/>
+        <element attributes="import_attribute_name=Site_Alt_Phone,edge_encryption_enabled=true" label="Site_Alt_Phone" max_length="40" name="u_site_alt_phone" type="string"/>
+        <element attributes="import_attribute_name=Site_City,edge_encryption_enabled=true" label="Site_City" max_length="40" name="u_site_city" type="string"/>
+        <element attributes="import_attribute_name=Site_Description,edge_encryption_enabled=true" label="Site_Description" max_length="40" name="u_site_description" type="string"/>
+        <element attributes="import_attribute_name=Site_Fax,edge_encryption_enabled=true" label="Site_Fax" max_length="40" name="u_site_fax" type="string"/>
+        <element attributes="import_attribute_name=Site_Key" label="Site_Key" max_length="15" name="u_site_key" type="decimal"/>
+        <element attributes="import_attribute_name=Site_Phone,edge_encryption_enabled=true" label="Site_Phone" max_length="40" name="u_site_phone" type="string"/>
+        <element attributes="import_attribute_name=Site_State" label="Site_State" max_length="15" name="u_site_state" type="decimal"/>
+        <element attributes="import_attribute_name=Site_Zip" label="Site_Zip" max_length="40" name="u_site_zip" type="char"/>
+        <element attributes="import_attribute_name=State_Code,edge_encryption_enabled=true" label="State_Code" max_length="50" name="u_state_code" type="string"/>
+        <element attributes="import_attribute_name=Store_Number" label="Store_Number" max_length="40" name="u_store_number" type="integer"/>
+    </element>
+</database>

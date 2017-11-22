@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>vendor_id</col_name_string>
+        <index_col_name element="vendor_id" name="x_rtp_sv_pdi_vendor">e8d7bdbfdb4d0700e93fb96c4e9619de</index_col_name>
+        <logical_table_name>x_rtp_sv_pdi_vendor</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>v-kannadhasanamirtha</sys_created_by>
+        <sys_created_on>2017-09-18 19:37:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6bd7a755db5dc700e93fb96c4e9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_rtp_sv_pdi_vendor</sys_name>
+        <sys_package display_value="PDI Item Management" source="x_rtp_sv_pdi">6b04b582dbc88740e93fb96c4e9619db</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PDI Item Management">6b04b582dbc88740e93fb96c4e9619db</sys_scope>
+        <sys_update_name>sys_index_x_rtp_sv_pdi_vendor_vendor_id</sys_update_name>
+        <sys_updated_by>v-kannadhasanamirtha</sys_updated_by>
+        <sys_updated_on>2017-09-18 19:37:47</sys_updated_on>
+        <table display_value="PDI Vendor" name="x_rtp_sv_pdi_vendor">abba6b44dbec4f400713d5ab5e9619d9</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

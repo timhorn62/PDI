@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Package" max_length="40" name="x_rtp_sv_pdi_package" type="collection">
+        <element label="Package" max_length="40" name="package" type="string"/>
+    </element>
+</database>

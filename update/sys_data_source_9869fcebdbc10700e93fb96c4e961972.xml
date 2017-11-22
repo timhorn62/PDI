@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>jdbc:sqlserver://ODSSQLDEV01.rt.corp;selectMethod=cursor;databaseName=BIData;integratedSecurity=true</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name>BIData</database_name>
+        <database_port/>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>com.microsoft.sqlserver.jdbc.SQLServerDriver</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>NISF PDI Vendor Load</import_set_table_label>
+        <import_set_table_name>u_nisf_pdi_vendor</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server>ODSSQLDEV01.rt.corp</jdbc_server>
+        <jdbc_user_name/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server display_value="DEVMIDSRV01">9ae3a11cdb417200e93fb96c4e9619d4</mid_server>
+        <name>NISF PDI Vendor</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>Specific SQL</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement>SELECT [Vend_Key]&#13;
+      ,[Vend_ID]&#13;
+      ,[Vend_Tax_ID]&#13;
+      ,[Vend_DUNS_ID]&#13;
+      ,[Vend_SCAC_ID]&#13;
+      ,[Vend_Description]&#13;
+      ,[Vend_Alt_Description]&#13;
+      ,[Vend_Address_1]&#13;
+      ,[Vend_Address_2]&#13;
+      ,[Vend_City]&#13;
+      ,[State]&#13;
+      ,[Vend_Postal_Code]&#13;
+      ,[Vend_Phone]&#13;
+      ,[Vend_Alt_Phone]&#13;
+      ,[Vend_FAX]&#13;
+      ,[Vend_Masked_FAX]&#13;
+      ,[Vend_Masked_Phone]&#13;
+      ,[Vend_Masked_Alt_Phone]&#13;
+      ,[Vend_Contact_Name]&#13;
+      ,[Vend_Email_Address]&#13;
+      ,[Vend_On_Hold]&#13;
+      ,[Vend_Class]&#13;
+      ,[Vend_VendType_Key]&#13;
+      ,[Vend_Internal_Vendor]&#13;
+      ,[Vend_Export_Vendor_ID]&#13;
+      ,[Vend_Use_Default_Terms]&#13;
+      ,[Vend_Default_APTerms_Key]&#13;
+      ,[Vend_Fuel_APTerms_Key]&#13;
+      ,[Vend_Fuel_Invc_Units]&#13;
+      ,[Vend_Fuel_Invc_Has_Frt]&#13;
+      ,[Vend_Fuel_Invc_Has_DefTax]&#13;
+     ,[Vend_Fuel_Cost_Begin_Time]&#13;
+      ,[Vend_Fuel_Cost_Life_Units]&#13;
+      ,[Vend_Fuel_Cost_Lifetime]&#13;
+      ,[Vend_Fuel_InterComp_Invc_Option]&#13;
+      ,[Vend_SPLC_Code]&#13;
+      ,[Vend_OD_Vehicle_Required]&#13;
+      ,[Vend_OD_Driver_Required]&#13;
+      ,[Vend_OD_Time_Required]&#13;
+      ,[Vend_OD_Odometer_Required]&#13;
+      ,[Vend_Recon_Zero_Frt]&#13;
+      ,[Vend_County]&#13;
+      ,[Vend_Default_Curr_ID]&#13;
+      ,[Vend_Allow_At_Site]&#13;
+      ,[Vend_Deactivated]&#13;
+      ,[Vend_Deactivated_Date]&#13;
+      ,[Vend_Created_Date]&#13;
+  FROM [BIData].[dbo].[vVendors]</sql_statement>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>v-kannadhasanamirtha</sys_created_by>
+        <sys_created_on>2017-09-12 20:26:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9869fcebdbc10700e93fb96c4e961972</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>NISF PDI Vendor</sys_name>
+        <sys_package display_value="PDI Item Management" source="x_rtp_sv_pdi">6b04b582dbc88740e93fb96c4e9619db</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PDI Item Management">6b04b582dbc88740e93fb96c4e9619db</sys_scope>
+        <sys_update_name>sys_data_source_9869fcebdbc10700e93fb96c4e961972</sys_update_name>
+        <sys_updated_by>v-kannadhasanamirtha</sys_updated_by>
+        <sys_updated_on>2017-09-14 14:41:03</sys_updated_on>
+        <table_name/>
+        <type>JDBC</type>
+        <use_integrated_authentication>true</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

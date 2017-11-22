@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="NISF PDI Vendor" max_length="40" name="u_nisf_pdi_vendor" type="collection">
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="50" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="VendType_Description" max_length="40" name="u_vendtype_description" type="string"/>
+        <element attributes="import_attribute_name=Vend_Address_1,edge_encryption_enabled=true" label="Vend_Address_1" max_length="40" name="u_vend_address_1" type="string"/>
+        <element attributes="import_attribute_name=Vend_Address_2,edge_encryption_enabled=true" label="Vend_Address_2" max_length="40" name="u_vend_address_2" type="string"/>
+        <element attributes="import_attribute_name=Vend_Allow_At_Site" label="Vend_Allow_At_Site" max_length="40" name="u_vend_allow_at_site" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Alt_Description,edge_encryption_enabled=true" label="Vend_Alt_Description" max_length="40" name="u_vend_alt_description" type="string"/>
+        <element attributes="import_attribute_name=Vend_Alt_Phone" label="Vend_Alt_Phone" max_length="40" name="u_vend_alt_phone" type="char"/>
+        <element attributes="import_attribute_name=Vend_City,edge_encryption_enabled=true" label="Vend_City" max_length="40" name="u_vend_city" type="string"/>
+        <element attributes="import_attribute_name=Vend_Class,edge_encryption_enabled=true" label="Vend_Class" max_length="40" name="u_vend_class" type="string"/>
+        <element attributes="import_attribute_name=Vend_Contact_Name,edge_encryption_enabled=true" label="Vend_Contact_Name" max_length="50" name="u_vend_contact_name" type="string"/>
+        <element attributes="import_attribute_name=Vend_County,edge_encryption_enabled=true" label="Vend_County" max_length="40" name="u_vend_county" type="string"/>
+        <element attributes="import_attribute_name=Vend_Created_Date" label="Vend_Created_Date" max_length="40" name="u_vend_created_date" type="datetime"/>
+        <element attributes="import_attribute_name=Vend_Deactivated" label="Vend_Deactivated" max_length="40" name="u_vend_deactivated" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Deactivated_Date" label="Vend_Deactivated_Date" max_length="40" name="u_vend_deactivated_date" type="datetime"/>
+        <element attributes="import_attribute_name=Vend_Default_APTerms_Key" label="Vend_Default_APTerms_Key" max_length="15" name="u_vend_default_apterms_key" type="decimal"/>
+        <element attributes="import_attribute_name=Vend_Default_Curr_ID,edge_encryption_enabled=true" label="Vend_Default_Curr_ID" max_length="40" name="u_vend_default_curr_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_Description,edge_encryption_enabled=true" label="Vend_Description" max_length="40" name="u_vend_description" type="string"/>
+        <element attributes="import_attribute_name=Vend_DUNS_ID,edge_encryption_enabled=true" label="Vend_DUNS_ID" max_length="40" name="u_vend_duns_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_Email_Address,edge_encryption_enabled=true" label="Vend_Email_Address" max_length="120" name="u_vend_email_address" type="string"/>
+        <element attributes="import_attribute_name=Vend_Export_Vendor_ID,edge_encryption_enabled=true" label="Vend_Export_Vendor_ID" max_length="40" name="u_vend_export_vendor_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_FAX" label="Vend_FAX" max_length="40" name="u_vend_fax" type="char"/>
+        <element attributes="import_attribute_name=Vend_Fuel_APTerms_Key" label="Vend_Fuel_APTerms_Key" max_length="15" name="u_vend_fuel_apterms_key" type="decimal"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Cost_Begin_Time" label="Vend_Fuel_Cost_Begin_Time" max_length="40" name="u_vend_fuel_cost_begin_time" type="datetime"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Cost_Lifetime" label="Vend_Fuel_Cost_Lifetime" max_length="15" name="u_vend_fuel_cost_lifetime" type="decimal"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Cost_Life_Units,edge_encryption_enabled=true" label="Vend_Fuel_Cost_Life_Units" max_length="40" name="u_vend_fuel_cost_life_units" type="string"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Invc_Has_DefTax" label="Vend_Fuel_Invc_Has_DefTax" max_length="40" name="u_vend_fuel_invc_has_deftax" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Invc_Has_Frt" label="Vend_Fuel_Invc_Has_Frt" max_length="40" name="u_vend_fuel_invc_has_frt" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Fuel_Invc_Units,edge_encryption_enabled=true" label="Vend_Fuel_Invc_Units" max_length="40" name="u_vend_fuel_invc_units" type="string"/>
+        <element attributes="import_attribute_name=Vend_Fuel_InterComp_Invc_Option,edge_encryption_enabled=true" label="Vend_Fuel_InterComp_Invc_Option" max_length="40" name="u_vend_fuel_in_mp_invc_option" type="string"/>
+        <element attributes="import_attribute_name=Vend_ID,edge_encryption_enabled=true" label="Vend_ID" max_length="40" name="u_vend_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_Internal_Vendor" label="Vend_Internal_Vendor" max_length="40" name="u_vend_internal_vendor" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Key" label="Vend_Key" max_length="15" name="u_vend_key" type="decimal"/>
+        <element attributes="import_attribute_name=Vend_Masked_Alt_Phone,edge_encryption_enabled=true" label="Vend_Masked_Alt_Phone" max_length="40" name="u_vend_masked_alt_phone" type="string"/>
+        <element attributes="import_attribute_name=Vend_Masked_FAX,edge_encryption_enabled=true" label="Vend_Masked_FAX" max_length="40" name="u_vend_masked_fax" type="string"/>
+        <element attributes="import_attribute_name=Vend_Masked_Phone,edge_encryption_enabled=true" label="Vend_Masked_Phone" max_length="40" name="u_vend_masked_phone" type="string"/>
+        <element attributes="import_attribute_name=Vend_OD_Driver_Required" label="Vend_OD_Driver_Required" max_length="40" name="u_vend_od_driver_required" type="integer"/>
+        <element attributes="import_attribute_name=Vend_OD_Odometer_Required" label="Vend_OD_Odometer_Required" max_length="40" name="u_vend_od_odometer_required" type="integer"/>
+        <element attributes="import_attribute_name=Vend_OD_Time_Required" label="Vend_OD_Time_Required" max_length="40" name="u_vend_od_time_required" type="integer"/>
+        <element attributes="import_attribute_name=Vend_OD_Vehicle_Required" label="Vend_OD_Vehicle_Required" max_length="40" name="u_vend_od_vehicle_required" type="integer"/>
+        <element attributes="import_attribute_name=Vend_On_Hold" label="Vend_On_Hold" max_length="40" name="u_vend_on_hold" type="integer"/>
+        <element attributes="import_attribute_name=Vend_Phone" label="Vend_Phone" max_length="40" name="u_vend_phone" type="char"/>
+        <element attributes="import_attribute_name=Vend_Postal_Code" label="Vend_Postal_Code" max_length="40" name="u_vend_postal_code" type="char"/>
+        <element attributes="import_attribute_name=Vend_Recon_Zero_Frt" label="Vend_Recon_Zero_Frt" max_length="40" name="u_vend_recon_zero_frt" type="integer"/>
+        <element attributes="import_attribute_name=Vend_SCAC_ID,edge_encryption_enabled=true" label="Vend_SCAC_ID" max_length="40" name="u_vend_scac_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_SPLC_Code,edge_encryption_enabled=true" label="Vend_SPLC_Code" max_length="40" name="u_vend_splc_code" type="string"/>
+        <element attributes="import_attribute_name=Vend_Tax_ID,edge_encryption_enabled=true" label="Vend_Tax_ID" max_length="40" name="u_vend_tax_id" type="string"/>
+        <element attributes="import_attribute_name=Vend_Use_Default_Terms" label="Vend_Use_Default_Terms" max_length="40" name="u_vend_use_default_terms" type="integer"/>
+        <element attributes="import_attribute_name=Vend_VendType_Key" label="Vend_VendType_Key" max_length="15" name="u_vend_vendtype_key" type="decimal"/>
+    </element>
+</database>

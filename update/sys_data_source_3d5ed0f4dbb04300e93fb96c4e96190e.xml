@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_data_source">
+    <sys_data_source action="INSERT_OR_UPDATE">
+        <category/>
+        <connection_timeout>0</connection_timeout>
+        <connection_url>jdbc:sqlserver://ODSSQLDEV01.rt.corp;selectMethod=cursor;databaseName=BIData;integratedSecurity=true</connection_url>
+        <connection_url_parameters/>
+        <csv_delimiter/>
+        <database_name>BIData</database_name>
+        <database_port/>
+        <expand_node_children>false</expand_node_children>
+        <file_path/>
+        <file_retrieval_method>Attachment</file_retrieval_method>
+        <format>com.microsoft.sqlserver.jdbc.SQLServerDriver</format>
+        <glide_keystore>false</glide_keystore>
+        <header_row>0</header_row>
+        <import_set_table_label>NISF PDI Cat and Group Hierarchy Load</import_set_table_label>
+        <import_set_table_name>u_nisf_pdi_cat_and_group_hierarchy</import_set_table_name>
+        <instance_name/>
+        <jdbc_password/>
+        <jdbc_server>ODSSQLDEV01.rt.corp</jdbc_server>
+        <jdbc_user_name/>
+        <last_run_database_field/>
+        <last_run_datetime/>
+        <ldap_target/>
+        <maximum_rows/>
+        <mid_server display_value="DEVMIDSRV01">9ae3a11cdb417200e93fb96c4e9619d4</mid_server>
+        <name>NISF PDI Category and Group Hierarchy</name>
+        <oracle_port>1521</oracle_port>
+        <oracle_sid>orcl</oracle_sid>
+        <properties/>
+        <query>Specific SQL</query>
+        <query_timeout>0</query_timeout>
+        <scp_authentication>Username and Password</scp_authentication>
+        <scp_password/>
+        <scp_port/>
+        <scp_server/>
+        <scp_user_name/>
+        <sheet_number>0</sheet_number>
+        <sql_statement>SELECT Category_Key,&#13;
+        Category_ID,&#13;
+        Category,&#13;
+        Group_Key,&#13;
+        Group_ID,&#13;
+        [Group],&#13;
+       SubGroup_Key,&#13;
+        SubGroup_ID,&#13;
+        SubGroup,&#13;
+        Full_Description&#13;
+FROM [dbo].[vProductHierarchy]</sql_statement>
+        <ssh_keyfile_path/>
+        <sys_class_name>sys_data_source</sys_class_name>
+        <sys_created_by>v-kannadhasanamirtha</sys_created_by>
+        <sys_created_on>2017-08-22 19:10:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3d5ed0f4dbb04300e93fb96c4e96190e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NISF PDI Category and Group Hierarchy</sys_name>
+        <sys_package display_value="PDI Item Management" source="x_rtp_sv_pdi">6b04b582dbc88740e93fb96c4e9619db</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PDI Item Management">6b04b582dbc88740e93fb96c4e9619db</sys_scope>
+        <sys_update_name>sys_data_source_3d5ed0f4dbb04300e93fb96c4e96190e</sys_update_name>
+        <sys_updated_by>v-kannadhasanamirtha</sys_updated_by>
+        <sys_updated_on>2017-09-12 20:39:24</sys_updated_on>
+        <table_name/>
+        <type>JDBC</type>
+        <use_integrated_authentication>true</use_integrated_authentication>
+        <use_last_run_datetime>false</use_last_run_datetime>
+        <xpath_root_node/>
+        <zipped>false</zipped>
+    </sys_data_source>
+</record_update>

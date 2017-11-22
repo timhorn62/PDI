@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>gallon_difference</field>
+        <global>true</global>
+        <messages/>
+        <name>AID_Gallon Difference (True)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	//Type appropriate comment here, and begin script below
+	var aa=g_form.getValue('invoice_type');
+	var dg = parseInt(g_form.getValue('delivered_gallon_amount'), 10);
+	var ig = parseInt(g_form.getValue('invoice_gallon_amount'), 10);
+	if((aa=='fuel') && (g_form.getValue('gallon_difference')=='true')){
+		g_form.setMandatory('delivered_gallon_amount', true);
+		g_form.setMandatory('invoice_gallon_amount', true);
+		g_form.setValue('delivered_gallon_amount', dg);
+		g_form.setValue('invoice_gallon_amount', ig);
+	}
+	if((aa=='fuel') && (g_form.getValue('gallon_difference')=='false')){
+		g_form.setMandatory('delivered_gallon_amount', false);
+		g_form.setMandatory('invoice_gallon_amount', false);
+		g_form.setValue('dg', 0);
+		g_form.setValue('ig', 0);
+	}
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>v-hemanthsiramdasu</sys_created_by>
+        <sys_created_on>2017-10-06 17:34:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08187bc7db29c700e93fb96c4e961948</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>AID_Gallon Difference (True)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PDI Item Management" source="x_rtp_sv_pdi">6b04b582dbc88740e93fb96c4e9619db</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="PDI Item Management">6b04b582dbc88740e93fb96c4e9619db</sys_scope>
+        <sys_update_name>sys_script_client_08187bc7db29c700e93fb96c4e961948</sys_update_name>
+        <sys_updated_by>v-kannadhasanamirtha</sys_updated_by>
+        <sys_updated_on>2017-10-19 20:05:37</sys_updated_on>
+        <table>x_rtp_sv_pdi_aid</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
